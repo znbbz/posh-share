@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  posh-share
 //
-//  Created by Zara McKeown on 14/07/2018.
+//  Created by znbb on 14/07/2018.
 //  Copyright © 2018 znbb. All rights reserved.
 //
 

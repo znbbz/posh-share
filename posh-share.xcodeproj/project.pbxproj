@@ -14,6 +14,8 @@
 		181E295C20FA4E37008B74C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E295A20FA4E37008B74C8 /* LaunchScreen.storyboard */; };
 		181E296720FA4E37008B74C8 /* posh_shareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E296620FA4E37008B74C8 /* posh_shareTests.swift */; };
 		181E297220FA4E37008B74C8 /* posh_shareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E297120FA4E37008B74C8 /* posh_shareUITests.swift */; };
+		181E298020FA8B89008B74C8 /* share_listing.js in Resources */ = {isa = PBXBuildFile; fileRef = 181E297F20FA8B89008B74C8 /* share_listing.js */; };
+		181E298220FA96D2008B74C8 /* share_partys.js in Resources */ = {isa = PBXBuildFile; fileRef = 181E298120FA96D1008B74C8 /* share_partys.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		181E296D20FA4E37008B74C8 /* posh-shareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "posh-shareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E297120FA4E37008B74C8 /* posh_shareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posh_shareUITests.swift; sourceTree = "<group>"; };
 		181E297320FA4E37008B74C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E297F20FA8B89008B74C8 /* share_listing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = share_listing.js; sourceTree = "<group>"; };
+		181E298120FA96D1008B74C8 /* share_partys.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = share_partys.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				181E295820FA4E37008B74C8 /* Assets.xcassets */,
 				181E295A20FA4E37008B74C8 /* LaunchScreen.storyboard */,
 				181E295D20FA4E37008B74C8 /* Info.plist */,
+				181E297F20FA8B89008B74C8 /* share_listing.js */,
+				181E298120FA96D1008B74C8 /* share_partys.js */,
 			);
 			path = "posh-share";
 			sourceTree = "<group>";
@@ -229,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E298220FA96D2008B74C8 /* share_partys.js in Resources */,
 				181E295C20FA4E37008B74C8 /* LaunchScreen.storyboard in Resources */,
 				181E295920FA4E37008B74C8 /* Assets.xcassets in Resources */,
 				181E295720FA4E36008B74C8 /* Main.storyboard in Resources */,
+				181E298020FA8B89008B74C8 /* share_listing.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
