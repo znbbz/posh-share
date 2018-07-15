@@ -7,7 +7,7 @@ var poshPartyShare = function() {
 };
 
 var notSold = function(el) {
-    return $(el).closest('.tile').find('.sold-tag,.sold-out-tag').length === 0;
+    return $(el).closest('.tile').find('.sold-tag,.sold-out-tag,.not-for-sale-tag').length === 0;
 };
 
 function share() {
